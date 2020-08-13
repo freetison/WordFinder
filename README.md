@@ -7,3 +7,5 @@ In one project a simple comparison of nodes in two directions is used (faster), 
 
 The performance of the first algorithm is between 8x -10x faster.
 
+Just as a demo I used a fluent builder pattern, some interfaces and extensions to make the code easier to read.
+Thanks
