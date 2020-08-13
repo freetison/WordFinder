@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30404.54
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordFinder", "WordFinder\WordFinder.csproj", "{AC494A76-34F4-4937-B4D4-100C05C12F6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordFinder-StreamRotation", "WordFinder-StreamRotation\WordFinder-StreamRotation.csproj", "{35F09282-EFD3-4065-A4A7-FAE59AE4ACDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{8B000A3B-0AB7-420C-9B37-E1333E5BCA44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{D88D28A5-C0EB-43FC-AC37-E0DFA0C726D3}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC494A76-34F4-4937-B4D4-100C05C12F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC494A76-34F4-4937-B4D4-100C05C12F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC494A76-34F4-4937-B4D4-100C05C12F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC494A76-34F4-4937-B4D4-100C05C12F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F09282-EFD3-4065-A4A7-FAE59AE4ACDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F09282-EFD3-4065-A4A7-FAE59AE4ACDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F09282-EFD3-4065-A4A7-FAE59AE4ACDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F09282-EFD3-4065-A4A7-FAE59AE4ACDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B000A3B-0AB7-420C-9B37-E1333E5BCA44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B000A3B-0AB7-420C-9B37-E1333E5BCA44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B000A3B-0AB7-420C-9B37-E1333E5BCA44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B000A3B-0AB7-420C-9B37-E1333E5BCA44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC494A76-34F4-4937-B4D4-100C05C12F6D} = {D88D28A5-C0EB-43FC-AC37-E0DFA0C726D3}
+		{35F09282-EFD3-4065-A4A7-FAE59AE4ACDC} = {D88D28A5-C0EB-43FC-AC37-E0DFA0C726D3}
+		{8B000A3B-0AB7-420C-9B37-E1333E5BCA44} = {D88D28A5-C0EB-43FC-AC37-E0DFA0C726D3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69CAB1BE-42DA-4FC3-9194-7CA22F236825}
+	EndGlobalSection
+EndGlobal
